@@ -1,9 +1,5 @@
 # Vue-Tailwind 
 
-[![Build Status](https://travis-ci.org/alfonsobries/vue-tailwind.svg?branch=master)](https://travis-ci.org/alfonsobries/vue-tailwind) [![Netlify Status](https://api.netlify.com/api/v1/badges/40acc43a-7f44-4030-b18a-62c08e0b03d2/deploy-status)](https://app.netlify.com/sites/vue-tailwind/deploys)
-
-For more info check the official site: [https://vue-tailwind.com/](https://vue-tailwind.com/)
-
 **VueTailwind** is a set of Vue components created to be customized to adapt to the unique design of your application.
 
 It uses [TailwindCss](https://tailwindcss.com) classes by default, and all classes are configurable, that give you total control of how the components will look like.
@@ -153,7 +149,7 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
     // Your custom theme file:
     './myOwnTheme.js',
     // Or the default 
-    // './node_modules/vue-tailwind/src/themes/default.js'
+    // './node_modules/vue-tailwind/node_modules/vue-tailwind/src/themes/default.js'
   ],
 
   // Include any special characters you're using in this regular expression
@@ -215,17 +211,17 @@ export default {
 
 The idea is to create a big set of common components using the same philosophy: Configurable elements that could be adapted to your project style:
 
-For now, these are the priorities, which may be subject to change.
+For now, these are the priorities, of course are subject to change.
 
 **Basic inputs**
-- [x] [Text input](https://vue-tailwind.com/elements/input.html)
-- [x] [Textarea](https://vue-tailwind.com/elements/textarea.html)
-- [x] [Select](https://vue-tailwind.com/elements/select.html)
-- [x] [Radio](https://vue-tailwind.com/elements/radio.html)
-- [x] [Radio Group](https://vue-tailwind.com/elements/radio-group.html)
-- [x] [Button](https://vue-tailwind.com/elements/button.html)
-- [x] [Checkbox](https://vue-tailwind.com/elements/checkbox.html)
-- [x] [Checkbox Group](https://vue-tailwind.com/elements/checkbox-group.html)
+- [x] [Text input](/elements/input.html)
+- [x] [Textarea](/elements/textarea.html)
+- [x] [Select](/elements/select.html)
+- [x] [Radio](/elements/radio.html)
+- [x] [Radio Group](/elements/radio-group.html)
+- [x] [Button](/elements/button.html)
+- [x] [Checkbox](/elements/checkbox.html)
+- [x] [Checkbox Group](/elements/checkbox-group.html)
 - [ ] File input
 
 **Rich inputs**
@@ -234,13 +230,13 @@ For now, these are the priorities, which may be subject to change.
 - [ ] Rich file input (drop, multiupload, progress bar, etc)
 
 **Components**
-- [x] [Alert](https://vue-tailwind.com/components/alert.html)
-- [x] [Card](https://vue-tailwind.com/components/card.html)
-- [x] [Dropdown](https://vue-tailwind.com/components/dropdown.html)
-- [x] [InputGroup](https://vue-tailwind.com/components/input-group.html)
-- [x] __NEW__ [Table](https://vue-tailwind.com/components/table.html)
-- [x] __NEW__ [Pagination](https://vue-tailwind.com/components/pagination.html)
-- [x] __NEW__ [Modal](https://vue-tailwind.com/components/modal.html)
+- [x] [Alert](/components/alert.html)
+- [x] [Card](/components/card.html)
+- [x] [Dropdown](/components/dropdown.html)
+- [x] [InputGroup](/components/input-group.html)
+- [x] __NEW__ [Table](/components/table.html)
+- [x] __NEW__ [Pagination](/components/pagination.html)
+- [x] __NEW__ [Modal](/components/modal.html)
 - [ ] __IN PROGRESS__ Pagination Nav
 - [ ] __IN PROGRESS__ Dialogs
 - [ ] Tooltip
@@ -252,15 +248,15 @@ For now, these are the priorities, which may be subject to change.
 
 **More**
 
-- Once we have a reasonable amount of components, I'm also planning to:
+- Once we have a reasonable amount of components I'm also planning:
   - Create some more default themes
   - Improve the documentation with better playgrounds
-  - Create a theme editor (And maybe a "submit your theme" page)
+  - Create a theme editor. (And maybe a "submit your theme" page)
   - Add more features to the components
 
 ### Changelog
 
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+Please see [CHANGELOG](https://github.com/alfonsobries/vue-tailwind/blob/master/CHANGELOG.md) for more information what has changed recently.
 
 ### Security
 
@@ -269,11 +265,12 @@ If you discover any security related issues, please email alfonso@vexilo.com ins
 ## Credits
 
 - [Alfonso Bribiesca](https://github.com/alfonsobries)
-- [All Contributors](../../contributors)
+- [All Contributors](https://github.com/alfonsobries/vue-tailwind/graphs/contributors)
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
 _Made with love by [@alfonsobries](https://twitter.com/alfonsobries)_
+
 
